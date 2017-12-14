@@ -1,0 +1,26 @@
+.lego-row{
+    display: flex;
+}
+
+.lego-brick{
+    flex-basis: 50%;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+}
+
+.lego-brick__inner{
+    width: calc(100% - 6rem);
+    margin: 0 auto;
+}
+
+.lego-brick__text{
+    line-height: 1.65;
+    margin: 0;
+    font-size: 1.75rem;
+    border-bottom: 1px solid;
+}
+
+.lego-brick__sub-text{
+    margin-top: 0.5rem;
+}

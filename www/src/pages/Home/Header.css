@@ -1,0 +1,19 @@
+.header{
+    height: 75vh;
+    padding-top: 6rem;
+}
+
+.header__inner{
+    width: calc(100% - 6rem);
+    margin: 0 auto;
+}
+
+.header__name{
+    font-size: 3.25rem;
+    line-height: 1.65;
+    border-bottom: 2px solid;
+}
+
+.header__sub-text{
+    margin-top: 0.5rem;
+}

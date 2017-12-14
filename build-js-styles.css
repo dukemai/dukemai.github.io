@@ -1,0 +1,2 @@
+.header{height:75vh;padding-top:6rem}.header__inner{width:calc(100% - 6rem);margin:0 auto}.header__name{font-size:3.25rem;line-height:1.65;border-bottom:2px solid}.header__sub-text{margin-top:.5rem}.lego-brick,.lego-row{display:flex}.lego-brick{flex-basis:50%;height:30vh;align-items:center}.lego-brick__inner{width:calc(100% - 6rem);margin:0 auto}.lego-brick__text{line-height:1.65;margin:0;font-size:1.75rem;border-bottom:1px solid}.lego-brick__sub-text{margin-top:.5rem}
+/*# sourceMappingURL=build-js-styles.css.map*/
