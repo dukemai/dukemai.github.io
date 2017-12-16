@@ -1,6 +1,8 @@
 .header{
     height: 75vh;
     padding-top: 6rem;
+    background: #8e24aa;
+    color: #FFF;
 }
 
 .header__inner{

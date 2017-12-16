@@ -5,13 +5,15 @@ import './LegoRow.css';
 
 const propTypes = {
     children: PropTypes.node,
+    className: PropTypes.node,
 };
 const defaultProps = {
     children: null,
+    className: '',
 };
 
-const LegoRow = ({ children }) => (
-    <div className="lego-row">
+const LegoRow = ({ children, className }) => (
+    <div className={`lego-row ${className}`}>
         {children}
     </div>    
 );

@@ -1,10 +1,20 @@
 .lego-row{
     display: flex;
+    color: #fff;
 }
+
+.lego-row--1-2 .lego-brick:last-child, .lego-row--2-1 .lego-brick:first-child{
+    flex: 1;
+}
+
+.lego-row--1-2 .lego-brick:first-child, .lego-row--2-1 .lego-brick:last-child{
+    flex-basis: 33.3%;
+}
+
 
 .lego-brick{
     flex-basis: 50%;
-    height: 30vh;
+    min-height: 30vh;
     display: flex;
     align-items: center;
 }
@@ -23,4 +33,20 @@
 
 .lego-brick__sub-text{
     margin-top: 0.5rem;
+}
+
+.lego-brick--green{
+    background: #66bb6a;
+}
+
+.lego-brick--bluegrey{
+    background: #607d8b;
+}
+
+.lego-brick--orange{
+    background: #ff7043;
+}
+
+.lego-brick--cyan{
+    background: #00bcd4;
 }

@@ -80,7 +80,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	var _syncRequires2 = _interopRequireDefault(_syncRequires);
 	
-	var _testRequireError = __webpack_require__(330);
+	var _testRequireError = __webpack_require__(333);
 	
 	var _testRequireError2 = _interopRequireDefault(_testRequireError);
 	
@@ -91,7 +91,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  Html = __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"../src/html\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
 	} catch (err) {
 	  if ((0, _testRequireError2.default)("../src/html", err)) {
-	    Html = __webpack_require__(331);
+	    Html = __webpack_require__(334);
 	  } else {
 	    console.log("\n\nThere was an error requiring \"src/html.js\"\n\n", err, "\n\n");
 	    process.exit();
@@ -212,7 +212,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  });
 	
 	  // Add the chunk-manifest as a head component.
-	  var chunkManifest = __webpack_require__(333);
+	  var chunkManifest = __webpack_require__(336);
 	
 	  headComponents.unshift(_react2.default.createElement("script", {
 	    id: "webpack-manifest",
@@ -224,7 +224,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	  var stats = void 0;
 	  try {
-	    stats = __webpack_require__(334);
+	    stats = __webpack_require__(337);
 	  } catch (e) {}
 	  // ignore
 	
@@ -42100,7 +42100,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /* 221 */
 /***/ (function(module, exports) {
 
-	module.exports = [{"componentChunkName":"component---src-pages-404-js","layout":"layout---index","layoutComponentChunkName":"component---src-layouts-index-js","jsonName":"404.json","path":"/404/"},{"componentChunkName":"component---src-pages-index-js","layout":"layout---index","layoutComponentChunkName":"component---src-layouts-index-js","jsonName":"index.json","path":"/"},{"componentChunkName":"component---src-pages-404-js","layout":"layout---index","layoutComponentChunkName":"component---src-layouts-index-js","jsonName":"404-html.json","path":"/404.html"},{"componentChunkName":"component---src-pages-home-base-brick-js","layout":"layout---index","layoutComponentChunkName":"component---src-layouts-index-js","jsonName":"home-base-brick.json","path":"/Home/BaseBrick/"},{"componentChunkName":"component---src-pages-home-header-js","layout":"layout---index","layoutComponentChunkName":"component---src-layouts-index-js","jsonName":"home-header.json","path":"/Home/Header/"},{"componentChunkName":"component---src-pages-home-lego-row-js","layout":"layout---index","layoutComponentChunkName":"component---src-layouts-index-js","jsonName":"home-lego-row.json","path":"/Home/LegoRow/"},{"componentChunkName":"component---src-pages-home-index-js","layout":"layout---index","layoutComponentChunkName":"component---src-layouts-index-js","jsonName":"home.json","path":"/Home/"}]
+	module.exports = [{"componentChunkName":"component---src-pages-404-js","layout":"layout---index","layoutComponentChunkName":"component---src-layouts-index-js","jsonName":"404.json","path":"/404/"},{"componentChunkName":"component---src-pages-index-js","layout":"layout---index","layoutComponentChunkName":"component---src-layouts-index-js","jsonName":"index.json","path":"/"},{"componentChunkName":"component---src-pages-404-js","layout":"layout---index","layoutComponentChunkName":"component---src-layouts-index-js","jsonName":"404-html.json","path":"/404.html"},{"componentChunkName":"component---src-pages-home-base-brick-js","layout":"layout---index","layoutComponentChunkName":"component---src-layouts-index-js","jsonName":"home-base-brick.json","path":"/Home/BaseBrick/"},{"componentChunkName":"component---src-pages-home-footer-js","layout":"layout---index","layoutComponentChunkName":"component---src-layouts-index-js","jsonName":"home-footer.json","path":"/Home/Footer/"},{"componentChunkName":"component---src-pages-home-header-js","layout":"layout---index","layoutComponentChunkName":"component---src-layouts-index-js","jsonName":"home-header.json","path":"/Home/Header/"},{"componentChunkName":"component---src-pages-home-lego-row-js","layout":"layout---index","layoutComponentChunkName":"component---src-layouts-index-js","jsonName":"home-lego-row.json","path":"/Home/LegoRow/"},{"componentChunkName":"component---src-pages-home-index-js","layout":"layout---index","layoutComponentChunkName":"component---src-layouts-index-js","jsonName":"home.json","path":"/Home/"}]
 
 /***/ }),
 /* 222 */
@@ -42119,18 +42119,19 @@ return /******/ (function(modules) { // webpackBootstrap
 	  "component---src-pages-404-js": preferDefault(__webpack_require__(223)),
 	  "component---src-pages-index-js": preferDefault(__webpack_require__(224)),
 	  "component---src-pages-home-base-brick-js": preferDefault(__webpack_require__(318)),
+	  "component---src-pages-home-footer-js": preferDefault(__webpack_require__(319)),
 	  "component---src-pages-home-header-js": preferDefault(__webpack_require__(314)),
 	  "component---src-pages-home-lego-row-js": preferDefault(__webpack_require__(316)),
 	  "component---src-pages-home-index-js": preferDefault(__webpack_require__(313))
 	};
 	
 	exports.json = (_exports$json = {
-	  "layout-index.json": __webpack_require__(319),
-	  "404.json": __webpack_require__(320)
-	}, _exports$json["layout-index.json"] = __webpack_require__(319), _exports$json["index.json"] = __webpack_require__(321), _exports$json["layout-index.json"] = __webpack_require__(319), _exports$json["404-html.json"] = __webpack_require__(322), _exports$json["layout-index.json"] = __webpack_require__(319), _exports$json["home-base-brick.json"] = __webpack_require__(323), _exports$json["layout-index.json"] = __webpack_require__(319), _exports$json["home-header.json"] = __webpack_require__(324), _exports$json["layout-index.json"] = __webpack_require__(319), _exports$json["home-lego-row.json"] = __webpack_require__(325), _exports$json["layout-index.json"] = __webpack_require__(319), _exports$json["home.json"] = __webpack_require__(326), _exports$json);
+	  "layout-index.json": __webpack_require__(321),
+	  "404.json": __webpack_require__(322)
+	}, _exports$json["layout-index.json"] = __webpack_require__(321), _exports$json["index.json"] = __webpack_require__(323), _exports$json["layout-index.json"] = __webpack_require__(321), _exports$json["404-html.json"] = __webpack_require__(324), _exports$json["layout-index.json"] = __webpack_require__(321), _exports$json["home-base-brick.json"] = __webpack_require__(325), _exports$json["layout-index.json"] = __webpack_require__(321), _exports$json["home-footer.json"] = __webpack_require__(326), _exports$json["layout-index.json"] = __webpack_require__(321), _exports$json["home-header.json"] = __webpack_require__(327), _exports$json["layout-index.json"] = __webpack_require__(321), _exports$json["home-lego-row.json"] = __webpack_require__(328), _exports$json["layout-index.json"] = __webpack_require__(321), _exports$json["home.json"] = __webpack_require__(329), _exports$json);
 	
 	exports.layouts = {
-	  "layout---index": preferDefault(__webpack_require__(327))
+	  "layout---index": preferDefault(__webpack_require__(330))
 	};
 
 /***/ }),
@@ -42194,28 +42195,51 @@ return /******/ (function(modules) { // webpackBootstrap
 	    _react2.default.createElement(_Home.Header, null),
 	    _react2.default.createElement(
 	      _Home.LegoRow,
-	      null,
-	      _react2.default.createElement(_Home.BaseBrick, {
-	        text: 'React',
-	        subText: 'Experience with building complex sites with React'
-	      }),
+	      { className: 'lego-row--1-2' },
 	      _react2.default.createElement(_Home.BaseBrick, {
 	        text: 'Sass, Stylus',
-	        subText: 'Experience with preprocessed css as well as css3'
+	        subText: 'Experience with preprocessed css as well as css3',
+	        className: 'lego-brick--green'
+	      }),
+	      _react2.default.createElement(_Home.BaseBrick, {
+	        text: 'React',
+	        subText: 'Experience with building complex sites with React, Redux, ReactRouter',
+	        className: 'lego-brick--bluegrey',
+	        subTextList: ['Tooling with webpack, jest']
 	      })
 	    ),
 	    _react2.default.createElement(
 	      _Home.LegoRow,
-	      null,
-	      _react2.default.createElement(_Home.BaseBrick, {
-	        text: 'C#',
-	        subText: '5 years of experience'
-	      }),
+	      { className: 'lego-row--2-1' },
 	      _react2.default.createElement(_Home.BaseBrick, {
 	        text: 'Episerver',
-	        subText: 'Certified with Epi 6, 7, 9 and 10'
+	        subText: 'Certified with Epi 6, 7, 9 and 10',
+	        className: 'lego-brick--orange',
+	        subTextList: ['Strong experience with deeply tailoring upon complex requests']
+	      }),
+	      _react2.default.createElement(_Home.BaseBrick, {
+	        text: 'C#',
+	        subText: '5 years of experience',
+	        className: 'lego-brick--cyan',
+	        subTextList: ['Wide experience with optimizing for performance']
 	      })
-	    )
+	    ),
+	    _react2.default.createElement(
+	      _Home.LegoRow,
+	      { className: 'lego-row--1-2' },
+	      _react2.default.createElement(_Home.BaseBrick, {
+	        text: 'Continous development',
+	        subText: 'Experience with chaining tools for continuous development #Git #Teamcity #Octopus #Docker',
+	        className: 'lego-brick--cyan'
+	      }),
+	      _react2.default.createElement(_Home.BaseBrick, {
+	        text: 'Performance Optimizations',
+	        subText: 'vast experience with performance optimization for large sites',
+	        className: 'lego-brick--green',
+	        subTextList: ['Best practices for rendering performances applications', 'Analyzing with recommended tools by Google such as pagespeed, lighthouse']
+	      })
+	    ),
+	    _react2.default.createElement(_Home.Footer, null)
 	  );
 	};
 	
@@ -44124,6 +44148,15 @@ return /******/ (function(modules) { // webpackBootstrap
 	    return _interopRequireDefault(_BaseBrick).default;
 	  }
 	});
+	
+	var _Footer = __webpack_require__(319);
+	
+	Object.defineProperty(exports, 'Footer', {
+	  enumerable: true,
+	  get: function get() {
+	    return _interopRequireDefault(_Footer).default;
+	  }
+	});
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -44169,7 +44202,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	            _react2.default.createElement(
 	                'div',
 	                { className: 'header__sub-text' },
-	                'I am a full stack developer. Episerver and .Net are my strength at backend. I am also a React advocate.'
+	                'I am a full stack developer, a certified scrum master. Episerver and .Net are my strength at backend. I am also a React advocate.'
 	            )
 	        )
 	    );
@@ -44207,17 +44240,20 @@ return /******/ (function(modules) { // webpackBootstrap
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
 	var propTypes = {
-	    children: _propTypes2.default.node
+	    children: _propTypes2.default.node,
+	    className: _propTypes2.default.node
 	};
 	var defaultProps = {
-	    children: null
+	    children: null,
+	    className: ''
 	};
 	
 	var LegoRow = function LegoRow(_ref) {
-	    var children = _ref.children;
+	    var children = _ref.children,
+	        className = _ref.className;
 	    return _react2.default.createElement(
 	        'div',
-	        { className: 'lego-row' },
+	        { className: 'lego-row ' + className },
 	        children
 	    );
 	};
@@ -44254,20 +44290,23 @@ return /******/ (function(modules) { // webpackBootstrap
 	var propTypes = {
 	    className: _propTypes2.default.string,
 	    text: _propTypes2.default.string,
-	    subText: _propTypes2.default.string
+	    subText: _propTypes2.default.string,
+	    subTextList: _propTypes2.default.arrayOf(_propTypes2.default.string)
 	};
 	var defaultProps = {
 	    className: '',
 	    text: '',
-	    subText: ''
+	    subText: '',
+	    subTextList: []
 	};
 	var BaseBrick = function BaseBrick(_ref) {
 	    var className = _ref.className,
 	        text = _ref.text,
-	        subText = _ref.subText;
+	        subText = _ref.subText,
+	        subTextList = _ref.subTextList;
 	    return _react2.default.createElement(
 	        'div',
-	        { className: 'lego-brick' },
+	        { className: 'lego-brick ' + className },
 	        _react2.default.createElement(
 	            'div',
 	            { className: 'lego-brick__inner' },
@@ -44280,7 +44319,14 @@ return /******/ (function(modules) { // webpackBootstrap
 	                'p',
 	                { className: 'lego-brick__sub-text' },
 	                subText
-	            )
+	            ),
+	            subTextList.map(function (text, index) {
+	                return _react2.default.createElement(
+	                    'p',
+	                    { key: index, className: 'lego-brick__sub-text' },
+	                    text
+	                );
+	            })
 	        )
 	    );
 	};
@@ -44291,21 +44337,64 @@ return /******/ (function(modules) { // webpackBootstrap
 
 /***/ }),
 /* 319 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-	module.exports = {"layoutContext":{}}
+	'use strict';
+	
+	exports.__esModule = true;
+	
+	var _react = __webpack_require__(1);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	var _propTypes = __webpack_require__(169);
+	
+	var _propTypes2 = _interopRequireDefault(_propTypes);
+	
+	__webpack_require__(320);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	function _objectDestructuringEmpty(obj) { if (obj == null) throw new TypeError("Cannot destructure undefined"); }
+	
+	var propTypes = {};
+	var defaultProps = {};
+	
+	var Footer = function Footer(_ref) {
+	    _objectDestructuringEmpty(_ref);
+	
+	    return _react2.default.createElement(
+	        'section',
+	        { className: 'footer' },
+	        _react2.default.createElement(
+	            'div',
+	            { className: 'footer__contact' },
+	            'Contact me at',
+	            _react2.default.createElement(
+	                'a',
+	                { href: 'https://www.linkedin.com/in/duc-mai-96b0846b/' },
+	                'Duc Mai@LinkedIn'
+	            )
+	        )
+	    );
+	};
+	
+	Footer.propTypes = propTypes;
+	Footer.defaultProps = defaultProps;
+	exports.default = Footer;
+	module.exports = exports['default'];
 
 /***/ }),
 /* 320 */
 /***/ (function(module, exports) {
 
-	module.exports = {"pathContext":{}}
+	// empty (null-loader)
 
 /***/ }),
 /* 321 */
 /***/ (function(module, exports) {
 
-	module.exports = {"pathContext":{}}
+	module.exports = {"layoutContext":{}}
 
 /***/ }),
 /* 322 */
@@ -44339,6 +44428,24 @@ return /******/ (function(modules) { // webpackBootstrap
 
 /***/ }),
 /* 327 */
+/***/ (function(module, exports) {
+
+	module.exports = {"pathContext":{}}
+
+/***/ }),
+/* 328 */
+/***/ (function(module, exports) {
+
+	module.exports = {"pathContext":{}}
+
+/***/ }),
+/* 329 */
+/***/ (function(module, exports) {
+
+	module.exports = {"pathContext":{}}
+
+/***/ }),
+/* 330 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -44351,11 +44458,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	var _index = __webpack_require__(328);
+	var _index = __webpack_require__(331);
 	
 	var _index2 = _interopRequireDefault(_index);
 	
-	var _layoutIndex = __webpack_require__(319);
+	var _layoutIndex = __webpack_require__(321);
 	
 	var _layoutIndex2 = _interopRequireDefault(_layoutIndex);
 	
@@ -44368,7 +44475,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = exports["default"];
 
 /***/ }),
-/* 328 */
+/* 331 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -44387,7 +44494,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	var _reactHelmet2 = _interopRequireDefault(_reactHelmet);
 	
-	__webpack_require__(329);
+	__webpack_require__(332);
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
@@ -44416,13 +44523,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = exports['default'];
 
 /***/ }),
-/* 329 */
+/* 332 */
 /***/ (function(module, exports) {
 
 	// empty (null-loader)
 
 /***/ }),
-/* 330 */
+/* 333 */
 /***/ (function(module, exports) {
 
 	"use strict";
@@ -44438,7 +44545,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	//# sourceMappingURL=test-require-error.js.map
 
 /***/ }),
-/* 331 */
+/* 334 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -44458,7 +44565,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	var stylesStr = void 0;
 	if (true) {
 	  try {
-	    stylesStr = __webpack_require__(332);
+	    stylesStr = __webpack_require__(335);
 	  } catch (e) {
 	    console.log(e);
 	  }
@@ -44514,22 +44621,22 @@ return /******/ (function(modules) { // webpackBootstrap
 	}(_react2.default.Component);
 
 /***/ }),
-/* 332 */
+/* 335 */
 /***/ (function(module, exports) {
 
-	module.exports = ".header{height:75vh;padding-top:6rem}.header__inner{width:calc(100% - 6rem);margin:0 auto}.header__name{font-size:3.25rem;line-height:1.65;border-bottom:2px solid}.header__sub-text{margin-top:.5rem}.lego-brick,.lego-row{display:-webkit-box;display:-ms-flexbox;display:flex}.lego-brick{-ms-flex-preferred-size:50%;flex-basis:50%;height:30vh;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.lego-brick__inner{width:calc(100% - 6rem);margin:0 auto}.lego-brick__text{line-height:1.65;margin:0;font-size:1.75rem;border-bottom:1px solid}.lego-brick__sub-text{margin-top:.5rem}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block}audio:not([controls]){display:none;height:0}progress{vertical-align:baseline}[hidden],template{display:none}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:inherit;font-weight:bolder}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}svg:not(:root){overflow:hidden}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}button,input,optgroup,select,textarea{font:inherit;margin:0}optgroup{font-weight:700}button,input{overflow:visible}button,select{text-transform:none}[type=reset],[type=submit],button,html [type=button]{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}html{font:112.5%/1.45em georgia,serif;box-sizing:border-box;overflow-y:scroll}*,:after,:before{box-sizing:inherit}body{color:rgba(0,0,0,.8);font-family:georgia,serif;font-weight:400;word-wrap:break-word;-webkit-font-kerning:normal;font-kerning:normal;-ms-font-feature-settings:\"kern\",\"liga\",\"clig\",\"calt\";-webkit-font-feature-settings:\"kern\",\"liga\",\"clig\",\"calt\";font-feature-settings:\"kern\",\"liga\",\"clig\",\"calt\",\"kern\"}img{max-width:100%;margin:0 0 1.45rem;padding:0}h1{font-size:2.25rem}h1,h2{margin:0 0 1.45rem;padding:0;color:inherit;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;font-weight:700;text-rendering:optimizeLegibility;line-height:1.1}h2{font-size:1.62671rem}h3{font-size:1.38316rem}h3,h4{margin:0 0 1.45rem;padding:0;color:inherit;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;font-weight:700;text-rendering:optimizeLegibility;line-height:1.1}h4{font-size:1rem}h5{font-size:.85028rem}h5,h6{margin:0 0 1.45rem;padding:0;color:inherit;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;font-weight:700;text-rendering:optimizeLegibility;line-height:1.1}h6{font-size:.78405rem}hgroup{margin:0 0 1.45rem;padding:0}ol,ul{margin:0 0 1.45rem 1.45rem;padding:0;list-style-position:outside;list-style-image:none}dd,dl,figure,p{margin:0 0 1.45rem;padding:0}pre{padding:0;font-size:.85rem;line-height:1.42;background:rgba(0,0,0,.04);border-radius:3px;overflow:auto;word-wrap:normal;padding:1.45rem}pre,table{margin:0 0 1.45rem}table{padding:0;font-size:1rem;line-height:1.45rem;border-collapse:collapse;width:100%}fieldset{margin:0 0 1.45rem;padding:0}blockquote{margin:0 1.45rem 1.45rem;padding:0}form,iframe,noscript{margin:0 0 1.45rem;padding:0}hr{margin:0 0 calc(1.45rem - 1px);padding:0;background:rgba(0,0,0,.2);border:none;height:1px}address{margin:0 0 1.45rem;padding:0}b,dt,strong,th{font-weight:700}li{margin-bottom:.725rem}ol li,ul li{padding-left:0}li>ol,li>ul{margin-left:1.45rem;margin-bottom:.725rem;margin-top:.725rem}blockquote :last-child,li :last-child,p :last-child{margin-bottom:0}li>p{margin-bottom:.725rem}code,kbd,samp{font-size:.85rem;line-height:1.45rem}abbr,abbr[title],acronym{border-bottom:1px dotted rgba(0,0,0,.5);cursor:help}abbr[title]{text-decoration:none}td,th,thead{text-align:left}td,th{border-bottom:1px solid rgba(0,0,0,.12);font-feature-settings:\"tnum\";-moz-font-feature-settings:\"tnum\";-ms-font-feature-settings:\"tnum\";-webkit-font-feature-settings:\"tnum\";padding:.725rem .96667rem calc(.725rem - 1px)}td:first-child,th:first-child{padding-left:0}td:last-child,th:last-child{padding-right:0}code,tt{background-color:rgba(0,0,0,.04);border-radius:3px;font-family:SFMono-Regular,Consolas,Roboto Mono,Droid Sans Mono,Liberation Mono,Menlo,Courier,monospace;padding:0;padding-top:.2em;padding-bottom:.2em}pre code{background:none;line-height:1.42}code:after,code:before,tt:after,tt:before{letter-spacing:-.2em;content:\" \"}pre code:after,pre code:before,pre tt:after,pre tt:before{content:\"\"}@media only screen and (max-width:480px){html{font-size:100%}}"
+	module.exports = ".header{height:75vh;padding-top:6rem;background:#8e24aa;color:#fff}.header__inner{width:calc(100% - 6rem);margin:0 auto}.header__name{font-size:3.25rem;line-height:1.65;border-bottom:2px solid}.header__sub-text{margin-top:.5rem}.lego-row{display:-webkit-box;display:-ms-flexbox;display:flex;color:#fff}.lego-row--1-2 .lego-brick:last-child,.lego-row--2-1 .lego-brick:first-child{-webkit-box-flex:1;-ms-flex:1;flex:1}.lego-row--1-2 .lego-brick:first-child,.lego-row--2-1 .lego-brick:last-child{-ms-flex-preferred-size:33.3%;flex-basis:33.3%}.lego-brick{-ms-flex-preferred-size:50%;flex-basis:50%;min-height:30vh;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.lego-brick__inner{width:calc(100% - 6rem);margin:0 auto}.lego-brick__text{line-height:1.65;margin:0;font-size:1.75rem;border-bottom:1px solid}.lego-brick__sub-text{margin-top:.5rem}.lego-brick--green{background:#66bb6a}.lego-brick--bluegrey{background:#607d8b}.lego-brick--orange{background:#ff7043}.lego-brick--cyan{background:#00bcd4}.footer{height:30vh;background:#2a2f4a;color:#fff}.footer__contact{width:calc(100% - 6rem);margin:0 auto;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;height:100%}.footer__contact a{color:#fff;margin-left:10px}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block}audio:not([controls]){display:none;height:0}progress{vertical-align:baseline}[hidden],template{display:none}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:inherit;font-weight:bolder}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}svg:not(:root){overflow:hidden}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}button,input,optgroup,select,textarea{font:inherit;margin:0}optgroup{font-weight:700}button,input{overflow:visible}button,select{text-transform:none}[type=reset],[type=submit],button,html [type=button]{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}html{font:112.5%/1.45em georgia,serif;box-sizing:border-box;overflow-y:scroll}*,:after,:before{box-sizing:inherit}body{color:rgba(0,0,0,.8);font-family:georgia,serif;font-weight:400;word-wrap:break-word;-webkit-font-kerning:normal;font-kerning:normal;-ms-font-feature-settings:\"kern\",\"liga\",\"clig\",\"calt\";-webkit-font-feature-settings:\"kern\",\"liga\",\"clig\",\"calt\";font-feature-settings:\"kern\",\"liga\",\"clig\",\"calt\",\"kern\"}img{max-width:100%;margin:0 0 1.45rem;padding:0}h1{font-size:2.25rem}h1,h2{margin:0 0 1.45rem;padding:0;color:inherit;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;font-weight:700;text-rendering:optimizeLegibility;line-height:1.1}h2{font-size:1.62671rem}h3{font-size:1.38316rem}h3,h4{margin:0 0 1.45rem;padding:0;color:inherit;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;font-weight:700;text-rendering:optimizeLegibility;line-height:1.1}h4{font-size:1rem}h5{font-size:.85028rem}h5,h6{margin:0 0 1.45rem;padding:0;color:inherit;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;font-weight:700;text-rendering:optimizeLegibility;line-height:1.1}h6{font-size:.78405rem}hgroup{margin:0 0 1.45rem;padding:0}ol,ul{margin:0 0 1.45rem 1.45rem;padding:0;list-style-position:outside;list-style-image:none}dd,dl,figure,p{margin:0 0 1.45rem;padding:0}pre{padding:0;font-size:.85rem;line-height:1.42;background:rgba(0,0,0,.04);border-radius:3px;overflow:auto;word-wrap:normal;padding:1.45rem}pre,table{margin:0 0 1.45rem}table{padding:0;font-size:1rem;line-height:1.45rem;border-collapse:collapse;width:100%}fieldset{margin:0 0 1.45rem;padding:0}blockquote{margin:0 1.45rem 1.45rem;padding:0}form,iframe,noscript{margin:0 0 1.45rem;padding:0}hr{margin:0 0 calc(1.45rem - 1px);padding:0;background:rgba(0,0,0,.2);border:none;height:1px}address{margin:0 0 1.45rem;padding:0}b,dt,strong,th{font-weight:700}li{margin-bottom:.725rem}ol li,ul li{padding-left:0}li>ol,li>ul{margin-left:1.45rem;margin-bottom:.725rem;margin-top:.725rem}blockquote :last-child,li :last-child,p :last-child{margin-bottom:0}li>p{margin-bottom:.725rem}code,kbd,samp{font-size:.85rem;line-height:1.45rem}abbr,abbr[title],acronym{border-bottom:1px dotted rgba(0,0,0,.5);cursor:help}abbr[title]{text-decoration:none}td,th,thead{text-align:left}td,th{border-bottom:1px solid rgba(0,0,0,.12);font-feature-settings:\"tnum\";-moz-font-feature-settings:\"tnum\";-ms-font-feature-settings:\"tnum\";-webkit-font-feature-settings:\"tnum\";padding:.725rem .96667rem calc(.725rem - 1px)}td:first-child,th:first-child{padding-left:0}td:last-child,th:last-child{padding-right:0}code,tt{background-color:rgba(0,0,0,.04);border-radius:3px;font-family:SFMono-Regular,Consolas,Roboto Mono,Droid Sans Mono,Liberation Mono,Menlo,Courier,monospace;padding:0;padding-top:.2em;padding-bottom:.2em}pre code{background:none;line-height:1.42}code:after,code:before,tt:after,tt:before{letter-spacing:-.2em;content:\" \"}pre code:after,pre code:before,pre tt:after,pre tt:before{content:\"\"}@media only screen and (max-width:480px){html{font-size:100%}}"
 
 /***/ }),
-/* 333 */
+/* 336 */
 /***/ (function(module, exports) {
 
-	module.exports = "{\"231608221292675\":\"app-ca3a5adfa8359fd0a98e.js\",\"162898551421021\":\"component---src-pages-404-js-4503918ea3a16cfcdb75.js\",\"35783957827783\":\"component---src-pages-index-js-3aed802331191e7c3dd3.js\",\"168711641250973\":\"component---src-pages-home-base-brick-js-3a072c062677336a6f3f.js\",\"26946641752411\":\"component---src-pages-home-header-js-a0a64cfeb990c97afb8f.js\",\"31888624725339\":\"component---src-pages-home-lego-row-js-a31dbfa5cb4aba23ca98.js\",\"118785002076118\":\"component---src-pages-home-index-js-1616e72410a523cb0202.js\",\"60335399758886\":\"path----557518bd178906f8d58a.js\",\"254022195166212\":\"path---404-a0e39f21c11f6a62c5ab.js\",\"142629428675168\":\"path---index-a0e39f21c11f6a62c5ab.js\",\"178698757827068\":\"path---404-html-a0e39f21c11f6a62c5ab.js\",\"56965903383881\":\"path---home-base-brick-a0e39f21c11f6a62c5ab.js\",\"6971748143843\":\"path---home-header-a0e39f21c11f6a62c5ab.js\",\"23316521109160\":\"path---home-lego-row-a0e39f21c11f6a62c5ab.js\",\"112856171308019\":\"path---home-a0e39f21c11f6a62c5ab.js\",\"114276838955818\":\"component---src-layouts-index-js-de697e23e207e8b6f847.js\"}"
+	module.exports = "{\"231608221292675\":\"app-50631afe552d905d3ed7.js\",\"162898551421021\":\"component---src-pages-404-js-4503918ea3a16cfcdb75.js\",\"35783957827783\":\"component---src-pages-index-js-dd7204d54d3670e9d400.js\",\"168711641250973\":\"component---src-pages-home-base-brick-js-61b6b7dd40719b1e56d5.js\",\"233326865023182\":\"component---src-pages-home-footer-js-e4e3f3b2ca5afea2702e.js\",\"26946641752411\":\"component---src-pages-home-header-js-678d6a398f5d5e7315cf.js\",\"31888624725339\":\"component---src-pages-home-lego-row-js-14f516d44b5c6bffe688.js\",\"118785002076118\":\"component---src-pages-home-index-js-b96363b7ab7817818f7f.js\",\"60335399758886\":\"path----557518bd178906f8d58a.js\",\"254022195166212\":\"path---404-a0e39f21c11f6a62c5ab.js\",\"142629428675168\":\"path---index-a0e39f21c11f6a62c5ab.js\",\"178698757827068\":\"path---404-html-a0e39f21c11f6a62c5ab.js\",\"56965903383881\":\"path---home-base-brick-a0e39f21c11f6a62c5ab.js\",\"207926772168979\":\"path---home-footer-a0e39f21c11f6a62c5ab.js\",\"6971748143843\":\"path---home-header-a0e39f21c11f6a62c5ab.js\",\"23316521109160\":\"path---home-lego-row-a0e39f21c11f6a62c5ab.js\",\"112856171308019\":\"path---home-a0e39f21c11f6a62c5ab.js\",\"114276838955818\":\"component---src-layouts-index-js-de697e23e207e8b6f847.js\"}"
 
 /***/ }),
-/* 334 */
+/* 337 */
 /***/ (function(module, exports) {
 
-	module.exports = {"assetsByChunkName":{"path---home-header":["path---home-header-a0e39f21c11f6a62c5ab.js","path---home-header-a0e39f21c11f6a62c5ab.js.map"],"path---home-lego-row":["path---home-lego-row-a0e39f21c11f6a62c5ab.js","path---home-lego-row-a0e39f21c11f6a62c5ab.js.map"],"component---src-pages-home-header-js":["component---src-pages-home-header-js-a0a64cfeb990c97afb8f.js","component---src-pages-home-header-js-a0a64cfeb990c97afb8f.js.map"],"component---src-pages-home-lego-row-js":["component---src-pages-home-lego-row-js-a31dbfa5cb4aba23ca98.js","component---src-pages-home-lego-row-js-a31dbfa5cb4aba23ca98.js.map"],"component---src-pages-index-js":["component---src-pages-index-js-3aed802331191e7c3dd3.js","component---src-pages-index-js-3aed802331191e7c3dd3.js.map"],"path---home-base-brick":["path---home-base-brick-a0e39f21c11f6a62c5ab.js","path---home-base-brick-a0e39f21c11f6a62c5ab.js.map"],"path---":["path----557518bd178906f8d58a.js","path----557518bd178906f8d58a.js.map"],"path---home":["path---home-a0e39f21c11f6a62c5ab.js","path---home-a0e39f21c11f6a62c5ab.js.map"],"component---src-layouts-index-js":["component---src-layouts-index-js-de697e23e207e8b6f847.js","component---src-layouts-index-js-de697e23e207e8b6f847.js.map"],"component---src-pages-home-index-js":["component---src-pages-home-index-js-1616e72410a523cb0202.js","component---src-pages-home-index-js-1616e72410a523cb0202.js.map"],"path---index":["path---index-a0e39f21c11f6a62c5ab.js","path---index-a0e39f21c11f6a62c5ab.js.map"],"component---src-pages-404-js":["component---src-pages-404-js-4503918ea3a16cfcdb75.js","component---src-pages-404-js-4503918ea3a16cfcdb75.js.map"],"commons":["commons-f1ef510847f79fa0a799.js","build-js-styles.css","commons-f1ef510847f79fa0a799.js.map","build-js-styles.css.map"],"component---src-pages-home-base-brick-js":["component---src-pages-home-base-brick-js-3a072c062677336a6f3f.js","component---src-pages-home-base-brick-js-3a072c062677336a6f3f.js.map"],"path---404-html":["path---404-html-a0e39f21c11f6a62c5ab.js","path---404-html-a0e39f21c11f6a62c5ab.js.map"],"app":["app-ca3a5adfa8359fd0a98e.js","build-js-styles.css","app-ca3a5adfa8359fd0a98e.js.map","build-js-styles.css.map"],"path---404":["path---404-a0e39f21c11f6a62c5ab.js","path---404-a0e39f21c11f6a62c5ab.js.map"]}}
+	module.exports = {"assetsByChunkName":{"path---home-header":["path---home-header-a0e39f21c11f6a62c5ab.js","path---home-header-a0e39f21c11f6a62c5ab.js.map"],"path---home-lego-row":["path---home-lego-row-a0e39f21c11f6a62c5ab.js","path---home-lego-row-a0e39f21c11f6a62c5ab.js.map"],"component---src-pages-home-header-js":["component---src-pages-home-header-js-678d6a398f5d5e7315cf.js","component---src-pages-home-header-js-678d6a398f5d5e7315cf.js.map"],"component---src-pages-home-lego-row-js":["component---src-pages-home-lego-row-js-14f516d44b5c6bffe688.js","component---src-pages-home-lego-row-js-14f516d44b5c6bffe688.js.map"],"component---src-pages-index-js":["component---src-pages-index-js-dd7204d54d3670e9d400.js","component---src-pages-index-js-dd7204d54d3670e9d400.js.map"],"path---home-base-brick":["path---home-base-brick-a0e39f21c11f6a62c5ab.js","path---home-base-brick-a0e39f21c11f6a62c5ab.js.map"],"path---":["path----557518bd178906f8d58a.js","path----557518bd178906f8d58a.js.map"],"path---home":["path---home-a0e39f21c11f6a62c5ab.js","path---home-a0e39f21c11f6a62c5ab.js.map"],"component---src-layouts-index-js":["component---src-layouts-index-js-de697e23e207e8b6f847.js","component---src-layouts-index-js-de697e23e207e8b6f847.js.map"],"component---src-pages-home-index-js":["component---src-pages-home-index-js-b96363b7ab7817818f7f.js","component---src-pages-home-index-js-b96363b7ab7817818f7f.js.map"],"path---index":["path---index-a0e39f21c11f6a62c5ab.js","path---index-a0e39f21c11f6a62c5ab.js.map"],"component---src-pages-404-js":["component---src-pages-404-js-4503918ea3a16cfcdb75.js","component---src-pages-404-js-4503918ea3a16cfcdb75.js.map"],"commons":["commons-f1ef510847f79fa0a799.js","build-js-styles.css","commons-f1ef510847f79fa0a799.js.map","build-js-styles.css.map"],"component---src-pages-home-base-brick-js":["component---src-pages-home-base-brick-js-61b6b7dd40719b1e56d5.js","component---src-pages-home-base-brick-js-61b6b7dd40719b1e56d5.js.map"],"path---404-html":["path---404-html-a0e39f21c11f6a62c5ab.js","path---404-html-a0e39f21c11f6a62c5ab.js.map"],"path---home-footer":["path---home-footer-a0e39f21c11f6a62c5ab.js","path---home-footer-a0e39f21c11f6a62c5ab.js.map"],"app":["app-50631afe552d905d3ed7.js","build-js-styles.css","app-50631afe552d905d3ed7.js.map","build-js-styles.css.map"],"component---src-pages-home-footer-js":["component---src-pages-home-footer-js-e4e3f3b2ca5afea2702e.js","component---src-pages-home-footer-js-e4e3f3b2ca5afea2702e.js.map"],"path---404":["path---404-a0e39f21c11f6a62c5ab.js","path---404-a0e39f21c11f6a62c5ab.js.map"]}}
 
 /***/ })
 /******/ ])

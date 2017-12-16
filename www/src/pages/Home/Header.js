@@ -15,7 +15,7 @@ const Header = ({ }) => (
                 Hi, my name is Duc Mai
             </div>
             <div className="header__sub-text">
-                I am a full stack developer. Episerver and .Net are my strength at backend. I am also a React advocate.
+                I am a full stack developer, a certified scrum master. Episerver and .Net are my strength at backend. I am also a React advocate.
             </div>
         </div>
     </section>    

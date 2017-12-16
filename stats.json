@@ -9,16 +9,16 @@
       "path---home-lego-row-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-pages-home-header-js": [
-      "component---src-pages-home-header-js-a0a64cfeb990c97afb8f.js",
-      "component---src-pages-home-header-js-a0a64cfeb990c97afb8f.js.map"
+      "component---src-pages-home-header-js-678d6a398f5d5e7315cf.js",
+      "component---src-pages-home-header-js-678d6a398f5d5e7315cf.js.map"
     ],
     "component---src-pages-home-lego-row-js": [
-      "component---src-pages-home-lego-row-js-a31dbfa5cb4aba23ca98.js",
-      "component---src-pages-home-lego-row-js-a31dbfa5cb4aba23ca98.js.map"
+      "component---src-pages-home-lego-row-js-14f516d44b5c6bffe688.js",
+      "component---src-pages-home-lego-row-js-14f516d44b5c6bffe688.js.map"
     ],
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-3aed802331191e7c3dd3.js",
-      "component---src-pages-index-js-3aed802331191e7c3dd3.js.map"
+      "component---src-pages-index-js-dd7204d54d3670e9d400.js",
+      "component---src-pages-index-js-dd7204d54d3670e9d400.js.map"
     ],
     "path---home-base-brick": [
       "path---home-base-brick-a0e39f21c11f6a62c5ab.js",
@@ -37,8 +37,8 @@
       "component---src-layouts-index-js-de697e23e207e8b6f847.js.map"
     ],
     "component---src-pages-home-index-js": [
-      "component---src-pages-home-index-js-1616e72410a523cb0202.js",
-      "component---src-pages-home-index-js-1616e72410a523cb0202.js.map"
+      "component---src-pages-home-index-js-b96363b7ab7817818f7f.js",
+      "component---src-pages-home-index-js-b96363b7ab7817818f7f.js.map"
     ],
     "path---index": [
       "path---index-a0e39f21c11f6a62c5ab.js",
@@ -55,18 +55,26 @@
       "build-js-styles.css.map"
     ],
     "component---src-pages-home-base-brick-js": [
-      "component---src-pages-home-base-brick-js-3a072c062677336a6f3f.js",
-      "component---src-pages-home-base-brick-js-3a072c062677336a6f3f.js.map"
+      "component---src-pages-home-base-brick-js-61b6b7dd40719b1e56d5.js",
+      "component---src-pages-home-base-brick-js-61b6b7dd40719b1e56d5.js.map"
     ],
     "path---404-html": [
       "path---404-html-a0e39f21c11f6a62c5ab.js",
       "path---404-html-a0e39f21c11f6a62c5ab.js.map"
     ],
+    "path---home-footer": [
+      "path---home-footer-a0e39f21c11f6a62c5ab.js",
+      "path---home-footer-a0e39f21c11f6a62c5ab.js.map"
+    ],
     "app": [
-      "app-ca3a5adfa8359fd0a98e.js",
+      "app-50631afe552d905d3ed7.js",
       "build-js-styles.css",
-      "app-ca3a5adfa8359fd0a98e.js.map",
+      "app-50631afe552d905d3ed7.js.map",
       "build-js-styles.css.map"
+    ],
+    "component---src-pages-home-footer-js": [
+      "component---src-pages-home-footer-js-e4e3f3b2ca5afea2702e.js",
+      "component---src-pages-home-footer-js-e4e3f3b2ca5afea2702e.js.map"
     ],
     "path---404": [
       "path---404-a0e39f21c11f6a62c5ab.js",
