@@ -1,14 +1,13 @@
 .lego-row{
     display: flex;
     color: #fff;
+    flex-direction: column;
 }
 
 .lego-row--1-2 .lego-brick:last-child, .lego-row--2-1 .lego-brick:first-child{
-    flex: 1;
 }
 
 .lego-row--1-2 .lego-brick:first-child, .lego-row--2-1 .lego-brick:last-child{
-    flex-basis: 33.3%;
 }
 
 
@@ -49,4 +48,27 @@
 
 .lego-brick--cyan{
     background: #00bcd4;
+}
+@media (min-width:768px){
+    .lego-row{
+        flex-direction: row;
+    }
+
+    .lego-row--1-2 .lego-brick:last-child, .lego-row--2-1 .lego-brick:first-child{
+        flex: 1;
+    }
+
+    .lego-row--1-2 .lego-brick:first-child, .lego-row--2-1 .lego-brick:last-child{
+        flex-basis: 50%;
+    }
+}
+
+@media (min-width:1024px){
+    .lego-row--1-2 .lego-brick:last-child, .lego-row--2-1 .lego-brick:first-child{
+        flex: 1;
+    }
+
+    .lego-row--1-2 .lego-brick:first-child, .lego-row--2-1 .lego-brick:last-child{
+        flex-basis: 33.3%;
+    }
 }
