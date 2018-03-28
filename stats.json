@@ -1,80 +1,40 @@
 {
   "assetsByChunkName": {
-    "path---home-header": [
-      "path---home-header-a0e39f21c11f6a62c5ab.js",
-      "path---home-header-a0e39f21c11f6a62c5ab.js.map"
-    ],
-    "path---home-lego-row": [
-      "path---home-lego-row-a0e39f21c11f6a62c5ab.js",
-      "path---home-lego-row-a0e39f21c11f6a62c5ab.js.map"
-    ],
-    "component---src-pages-home-header-js": [
-      "component---src-pages-home-header-js-678d6a398f5d5e7315cf.js",
-      "component---src-pages-home-header-js-678d6a398f5d5e7315cf.js.map"
-    ],
-    "component---src-pages-home-lego-row-js": [
-      "component---src-pages-home-lego-row-js-14f516d44b5c6bffe688.js",
-      "component---src-pages-home-lego-row-js-14f516d44b5c6bffe688.js.map"
-    ],
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-dd7204d54d3670e9d400.js",
-      "component---src-pages-index-js-dd7204d54d3670e9d400.js.map"
-    ],
-    "path---home-base-brick": [
-      "path---home-base-brick-a0e39f21c11f6a62c5ab.js",
-      "path---home-base-brick-a0e39f21c11f6a62c5ab.js.map"
+      "component---src-pages-index-js-bc3cd850d5ed9bbd08dd.js",
+      "component---src-pages-index-js-bc3cd850d5ed9bbd08dd.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
       "path----557518bd178906f8d58a.js.map"
     ],
-    "path---home": [
-      "path---home-a0e39f21c11f6a62c5ab.js",
-      "path---home-a0e39f21c11f6a62c5ab.js.map"
-    ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-de697e23e207e8b6f847.js",
-      "component---src-layouts-index-js-de697e23e207e8b6f847.js.map"
-    ],
-    "component---src-pages-home-index-js": [
-      "component---src-pages-home-index-js-b96363b7ab7817818f7f.js",
-      "component---src-pages-home-index-js-b96363b7ab7817818f7f.js.map"
+      "component---src-layouts-index-js-212ed1b4be9599b73d7b.js",
+      "component---src-layouts-index-js-212ed1b4be9599b73d7b.js.map"
     ],
     "path---index": [
       "path---index-a0e39f21c11f6a62c5ab.js",
       "path---index-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-pages-404-js": [
-      "component---src-pages-404-js-4503918ea3a16cfcdb75.js",
-      "component---src-pages-404-js-4503918ea3a16cfcdb75.js.map"
+      "component---src-pages-404-js-bafe40c35a3beb6802f0.js",
+      "component---src-pages-404-js-bafe40c35a3beb6802f0.js.map"
     ],
     "commons": [
-      "commons-f1ef510847f79fa0a799.js",
+      "commons-666776c93660385bc80e.js",
       "build-js-styles.css",
-      "commons-f1ef510847f79fa0a799.js.map",
+      "commons-666776c93660385bc80e.js.map",
       "build-js-styles.css.map"
-    ],
-    "component---src-pages-home-base-brick-js": [
-      "component---src-pages-home-base-brick-js-61b6b7dd40719b1e56d5.js",
-      "component---src-pages-home-base-brick-js-61b6b7dd40719b1e56d5.js.map"
     ],
     "path---404-html": [
       "path---404-html-a0e39f21c11f6a62c5ab.js",
       "path---404-html-a0e39f21c11f6a62c5ab.js.map"
     ],
-    "path---home-footer": [
-      "path---home-footer-a0e39f21c11f6a62c5ab.js",
-      "path---home-footer-a0e39f21c11f6a62c5ab.js.map"
-    ],
     "app": [
-      "app-50631afe552d905d3ed7.js",
+      "app-eae46b1a3cf287973f3e.js",
       "build-js-styles.css",
-      "app-50631afe552d905d3ed7.js.map",
+      "app-eae46b1a3cf287973f3e.js.map",
       "build-js-styles.css.map"
-    ],
-    "component---src-pages-home-footer-js": [
-      "component---src-pages-home-footer-js-e4e3f3b2ca5afea2702e.js",
-      "component---src-pages-home-footer-js-e4e3f3b2ca5afea2702e.js.map"
     ],
     "path---404": [
       "path---404-a0e39f21c11f6a62c5ab.js",

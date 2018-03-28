@@ -1,61 +1,73 @@
 import React from 'react'
 import Link from 'gatsby-link'
-import { Header, LegoRow, BaseBrick, Footer } from './Home';
+import { Motion, spring } from 'react-motion'
 
-const IndexPage = () => (
-  <div>
-    <Header />
-    <LegoRow className="lego-row--1-2">
-      <BaseBrick
-        text="Sass, Stylus"
-        subText="Experience with preprocessed css as well as css3"
-        className="lego-brick--green"
-      />
-      <BaseBrick
-        text="React"
-        subText="Experience with building complex sites with React, Redux, ReactRouter"
-        className="lego-brick--bluegrey"
-        subTextList={[
-          'Tooling with webpack, jest'
-        ]}
-      />
-    </LegoRow>
-    <LegoRow className="lego-row--2-1">
-       <BaseBrick
-        text="Episerver"
-        subText="Certified with Epi 6, 7, 9 and 10"
-        className="lego-brick--orange"
-        subTextList={[
-          'Strong experience with deeply tailoring upon complex requests'
-        ]}
-      />
-      <BaseBrick
-        text="C#"
-        subText="5 years of experience"
-        className="lego-brick--cyan"
-        subTextList={[
-          'Wide experience with optimizing for performance'
-        ]}
-      />
-    </LegoRow>
-    <LegoRow className="lego-row--1-2">
-       <BaseBrick
-        text="Continous development"
-        subText="Experience with chaining tools for continuous development #Git #Teamcity #Octopus #Docker"
-        className="lego-brick--cyan"
-      />
-      <BaseBrick
-        text="Performance Optimizations"
-        subText="vast experience with performance optimization for large sites"
-        className="lego-brick--green"
-        subTextList={[
-          'Best practices for rendering performances applications',
-          'Analyzing with recommended tools by Google such as pagespeed, lighthouse'
-        ]}
-      />
-    </LegoRow>
-    <Footer />
-  </div>
-)
+import './styles.css'
 
-export default IndexPage
+const skills = ['Nodejs', 'React', '.Net', 'Docker']
+
+export default class IndexPage extends React.Component {
+  state = {
+    lowerBound: 350,
+    upperBound: 0,
+    showContent: false,
+  }
+  toggleContent = () => {
+    this.setState({
+      lowerBound: this.state.upperBound,
+      upperBound: this.state.lowerBound,
+      showContent: true,
+    })
+  }
+  render() {
+    const { lowerBound, upperBound, showContent } = this.state
+    return (
+      <div className="page--home">
+        <Motion
+          defaultStyle={{ x: lowerBound }}
+          style={{ x: spring(upperBound) }}
+        >
+          {interpolatingStyle => (
+            <div className="presentation">
+              {showContent && (
+                <div
+                  className="presentation__content"
+                  style={{
+                    height: interpolatingStyle.x,
+                    width: interpolatingStyle.x,
+                  }}
+                >
+                  <h2 className="presentation__title">Full Stack Developer</h2>
+                  <ul>
+                    {skills.map((skill, index) => <li key={index}>{skill}</li>)}
+                  </ul>
+                  <button className="presentation__nextButton">
+                    <i className="material-icons">zoom_in</i>
+                  </button>
+                </div>
+              )}
+              <button
+                onClick={this.toggleContent}
+                className="presentation__button"
+              >
+                <i className="material-icons presentation__icon">apps</i>
+              </button>
+            </div>
+          )}
+        </Motion>
+        <div className="presentationBottom">
+          Duke Mai
+          <div className="presentationBottom__linkedin">
+            <a
+              className="presentationBottom__link"
+              title="Duke Mai"
+              href="https://www.linkedin.com/in/duc-mai-96b0846b/"
+            >
+              Visit me on LinkedIn.
+            </a>
+          </div>
+        </div>
+      </div>
+    )
+  }
+}

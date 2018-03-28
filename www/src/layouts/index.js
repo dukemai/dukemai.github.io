@@ -12,10 +12,17 @@ const TemplateWrapper = ({ children }) => (
         { name: 'description', content: 'DukeMai, fullStack developer' },
         { name: 'keywords', content: 'Fullstack, React, Javacript, Episerver' },
       ]}
-    />
-    <div className="container">
-      {children()}
-    </div>
+    >
+      <link
+        href="https://fonts.googleapis.com/css?family=Roboto"
+        rel="stylesheet"
+      />
+      <link
+        href="https://fonts.googleapis.com/icon?family=Material+Icons"
+        rel="stylesheet"
+      />
+    </Helmet>
+    <div className="container">{children()}</div>
   </div>
 )
 

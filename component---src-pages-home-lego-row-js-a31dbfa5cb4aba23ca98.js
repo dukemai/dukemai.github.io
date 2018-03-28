@@ -1,2 +1,0 @@
-webpackJsonp([31888624725339],{46:function(e,n){},40:function(e,n,t){"use strict";function l(e){return e&&e.__esModule?e:{default:e}}n.__esModule=!0;var r=t(2),u=l(r),a=t(5),d=l(a);t(46);var o={children:d.default.node},c={children:null},f=function(e){var n=e.children;return u.default.createElement("div",{className:"lego-row"},n)};f.propTypes=o,f.defaultProps=c,n.default=f,e.exports=n.default}});
-//# sourceMappingURL=component---src-pages-home-lego-row-js-a31dbfa5cb4aba23ca98.js.map
