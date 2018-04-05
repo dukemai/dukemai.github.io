@@ -1,13 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+import { skills } from '../../data';
+
 const propTypes = {
   onZoomClicked: PropTypes.func.isRequired,
 };
 const defaultProps = {
 };
-
-const skills = ['Nodejs', 'React', '.Net', 'Docker']
 
 const Intro = ({ onZoomClicked }) => (
   <div className="presentation__intro">
@@ -15,7 +15,7 @@ const Intro = ({ onZoomClicked }) => (
     <ul>
       {
         skills.map((skill, index) =>
-          (<li className="presentation__skill" key={index}>{skill}</li>))
+          (<li className="presentation__skill" key={index}>{skill.title}</li>))
       }
     </ul>
     <button onClick={onZoomClicked} className="presentation__nextButton">

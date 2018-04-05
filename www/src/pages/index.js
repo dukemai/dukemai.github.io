@@ -10,7 +10,7 @@ const SLIDE = 'SLIDE';
 
 export default class IndexPage extends React.Component {
   state = {
-    lowerBound: 350,
+    lowerBound: 365,
     upperBound: 0,
     showContent: false,
     currentShow: INTRO,

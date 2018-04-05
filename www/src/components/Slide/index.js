@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import { Motion, spring } from 'react-motion'
 
 import Dot from './Dot';
+import { skills } from '../../data';
 
 import './styles.css';
 
@@ -18,38 +19,7 @@ class Slide extends React.Component {
     activeSlide: 0,
     defaultStyle: { height: 0, width: 0, borderRadius: 50, top: 100 },
     style: { height: spring(350), width: spring(100), borderRadius: spring(0), top: spring(0) },
-    slides: [
-      {
-        id: 'react',
-        title: 'React',
-        description: 'To compose complexed web applications',
-        content: 'slide 1',
-      },
-      {
-        id: 'nodejs',
-        title: 'Nodejs',
-        description: 'Couple with Express to provide flexibility development with React',
-        content: 'slide 2',
-      },
-      {
-        id: 'net',
-        title: '.Net',
-        description: 'Leverage effectively .Net 5.0 in conjunction with CMSes such as Episerver CMS',
-        content: 'slide 3',
-      },
-      {
-        id: 'docker',
-        title: 'Docker',
-        description: 'To facilitate setting up working and deploying environments',
-        content: 'slide 4',
-      },
-      {
-        id: 'performance',
-        title: 'Performance',
-        description: 'To compose complexed web applications',
-        content: 'slide 5',
-      },
-    ],
+    slides: skills,
     top: 0,
   }
   componentWillMount() {
