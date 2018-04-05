@@ -22,6 +22,23 @@ class Slide extends React.Component {
     slides: skills,
     top: 0,
   }
+  bindKeyEvents = (e) => {
+    if (e.key === 'Escape') {
+      this.backClicked();
+    }
+    if (e.key === 'ArrowLeft') {
+      this.previousClicked();
+    }
+    if (e.key === 'ArrowRight') {
+      this.nextClicked();
+    }
+  }
+  componentDidMount() {
+    document.body.addEventListener('keydown', this.bindKeyEvents);
+  }
+  componentWillUnmount() {
+    document.body.removeEventListener('keydown', this.bindKeyEvents);
+  }
   componentWillMount() {
     this.state.unMountAnimation = false;
   }
@@ -102,7 +119,7 @@ class Slide extends React.Component {
                           top: `${interpolatingStyle.top}%`
                         }}
                       />
-                  </div>
+                    </div>
                   </div>
                 )}
               </Motion>
