@@ -2,15 +2,18 @@ import React from 'react'
 import Link from 'gatsby-link'
 import { Motion, spring } from 'react-motion'
 
+import { Slide, Intro } from '../components';
 import './styles.css'
 
-const skills = ['Nodejs', 'React', '.Net', 'Docker']
+const INTRO = 'INTRO';
+const SLIDE = 'SLIDE';
 
 export default class IndexPage extends React.Component {
   state = {
     lowerBound: 350,
     upperBound: 0,
     showContent: false,
+    currentShow: INTRO,
   }
   toggleContent = () => {
     this.setState({
@@ -19,10 +22,20 @@ export default class IndexPage extends React.Component {
       showContent: true,
     })
   }
+  zoomClicked = () => {
+    this.setState({
+      currentShow: SLIDE,
+    });
+  }
+  backClicked = () => {
+    this.setState({
+      currentShow: INTRO,
+    });
+  }
   render() {
-    const { lowerBound, upperBound, showContent } = this.state
+    const { lowerBound, upperBound, showContent, currentShow } = this.state
     return (
-      <div className="page--home">
+      <div className="page--home">  
         <Motion
           defaultStyle={{ x: lowerBound }}
           style={{ x: spring(upperBound) }}
@@ -37,13 +50,12 @@ export default class IndexPage extends React.Component {
                     width: interpolatingStyle.x,
                   }}
                 >
-                  <h2 className="presentation__title">Full Stack Developer</h2>
-                  <ul>
-                    {skills.map((skill, index) => <li key={index}>{skill}</li>)}
-                  </ul>
-                  <button className="presentation__nextButton">
-                    <i className="material-icons">zoom_in</i>
-                  </button>
+                  {
+                    currentShow === INTRO && (<Intro onZoomClicked={this.zoomClicked} />)
+                  }
+                  {
+                    currentShow === SLIDE && (<Slide backClicked={this.backClicked} />)
+                  }
                 </div>
               )}
               <button
