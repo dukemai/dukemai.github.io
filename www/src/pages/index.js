@@ -75,8 +75,11 @@ export default class IndexPage extends React.Component {
               title="Duke Mai"
               href="https://www.linkedin.com/in/duc-mai-96b0846b/"
             >
-              Visit me on LinkedIn.
-            </a>
+              Visit me on <span className="presentationBottom__linkedIn">LinkedIn.</span>
+            </a>&nbsp;
+            <Link className="presentationBottom__link" to="/apps/">
+              <span className="presentationBottom__app">Apps</span> developed by me
+            </Link>
           </div>
         </div>
       </div>

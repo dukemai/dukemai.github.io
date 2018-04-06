@@ -35,7 +35,7 @@
 .presentationBottom__link{
     text-decoration: none;
     font-size: 14px;
-    color: #02728F;
+    color: #454545;
 }
 
 .presentation__content{
@@ -77,4 +77,12 @@
 
 .presentation__title{
     white-space: nowrap;
+}
+
+.presentationBottom__linkedIn{
+    color: #0077B5;
+}
+
+.presentationBottom__app{
+    color: #0077B5;
 }
