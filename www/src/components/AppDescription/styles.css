@@ -1,0 +1,25 @@
+.appDescription__top{
+    border-bottom: 1px solid #E8E9EB;
+    margin: 0 20px;
+    padding-bottom: 15px;
+}
+.appDescription__image{
+    width: 100%;
+    border-radius: 22.5%;
+    border: 1px solid #F47B20;
+}
+
+.appDescription__imageWrapper{
+    width: 75px;
+    margin: 25px auto 0;
+}
+
+.appDescription__title{
+    text-align: center;
+}
+
+.appDescription__text{
+    text-align: center;
+    font-size: 12px;
+    color: #6E6E6E;
+}
