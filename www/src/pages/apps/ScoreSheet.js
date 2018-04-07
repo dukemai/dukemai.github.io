@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { AppDescription, AppDetail } from '../../components';
+import { AppDescription, AppDetail, UseCase } from '../../components';
 import { apps } from '../../data';
 import './styles.css';
 
@@ -14,8 +14,14 @@ const scoreApp = apps[0];
 
 const ScoreSheet = ({ }) => (
   <div className="scoreSheet appSheet">
-    <AppDescription {...scoreApp} />
-    <AppDetail />
+    <AppDescription {...scoreApp}>
+      {
+        scoreApp.usecases.map(useCase => (
+          <UseCase {...useCase} />
+        ))
+      }
+    </AppDescription>  
+    <AppDetail {...scoreApp} />
   </div>  
 );
 

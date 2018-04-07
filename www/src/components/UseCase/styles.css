@@ -1,0 +1,15 @@
+.useCase{
+    margin-bottom: 7px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #E8E9EB;
+}
+
+.useCase__rules{
+    font-size: 12px;
+    color: #6E6E6E;
+}
+
+.useCase__settings{
+    font-size: 12px;
+    color: #6E6E6E;
+}
