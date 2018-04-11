@@ -10,7 +10,7 @@ const TemplateWrapper = ({ children }) => (
       title="Duke Mai Home Page"
       meta={[
         { name: 'description', content: 'DukeMai, fullStack developer' },
-        { name: 'keywords', content: 'Fullstack, React, Javacript, Episerver' },
+        { name: 'keywords', content: 'Fullstack, React, Javacript, Episerver, Nodejs' },
       ]}
     >
       <link
