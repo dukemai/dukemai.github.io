@@ -13,7 +13,7 @@ const defaultProps = {
 const scoreApp = apps[0];
 
 const ScoreSheet = ({ }) => (
-  <div className="scoreSheet appSheet">
+  <div className="page page--scoreSheet scoreSheet appSheet">
     <AppDescription {...scoreApp}>
       {
         scoreApp.usecases.map(useCase => (

@@ -35,7 +35,7 @@ export default class IndexPage extends React.Component {
   render() {
     const { lowerBound, upperBound, showContent, currentShow } = this.state
     return (
-      <div className="page--home">  
+      <div className="page page--home">  
         <Motion
           defaultStyle={{ x: lowerBound }}
           style={{ x: spring(upperBound) }}
@@ -78,7 +78,10 @@ export default class IndexPage extends React.Component {
               Visit me on <span className="presentationBottom__linkedIn">LinkedIn.</span>
             </a>&nbsp;
             <Link className="presentationBottom__link" to="/apps/">
-              <span className="presentationBottom__app">Apps</span> developed by me
+              <span className="presentationBottom__app">Apps</span> developed by me.
+            </Link>&nbsp;
+            <Link className="presentationBottom__link" to="/CV/">
+              <span className="presentationBottom__app">Duke's CV</span>
             </Link>
           </div>
         </div>

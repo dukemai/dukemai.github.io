@@ -4,3 +4,8 @@ export { default as AppList } from './AppList';
 export { default as AppDetail } from './AppDetail';
 export { default as AppDescription } from './AppDescription';
 export { default as UseCase } from './UseCase';
+export { default as Skills } from './Skills';
+export { default as Education } from './Education';
+export { default as Projects } from './Projects';
+export { default as PersonalInfo } from './PersonalInfo';
+export { default as Certificates } from './Certificates';

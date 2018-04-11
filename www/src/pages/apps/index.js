@@ -11,7 +11,7 @@ const defaultProps = {
 };
 
 const Apps = ({ }) => (
-  <div className="appList">
+  <div className="page page--appList appList">
     <Link className="appList__back" to="/">
       Back
     </Link> 

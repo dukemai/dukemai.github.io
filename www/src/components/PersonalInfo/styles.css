@@ -1,0 +1,31 @@
+.personalInfo{
+    overflow: hidden;
+    border-bottom: 1px solid #6F8695;
+    padding-bottom: 15px;
+}
+.personalInfo__name{
+    color: #1C448E;
+    margin: 30px 0 0;
+}
+.personalInfo__roles{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    font-size: 12px;
+}
+
+.role{
+    margin-right: 7px;
+    color: #6F8695;
+}
+
+.personalInfo__languages{
+    font-size: 12px;
+}
+
+.personalInfo__row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

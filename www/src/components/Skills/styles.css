@@ -1,0 +1,24 @@
+.skills{
+    overflow: hidden;
+}
+
+.block__title{
+    margin: 0;
+    background: #FFE381;
+    padding: 10px 5px;
+    margin-bottom: 7px;
+}
+
+.skill{
+    font-size: 14px;
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.skill svg{
+    width: 24px;
+    height: 24px;
+    fill: #1C448E;
+    margin-right: 7px;
+}

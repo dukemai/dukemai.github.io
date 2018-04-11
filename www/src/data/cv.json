@@ -1,0 +1,140 @@
+{
+    "name": "Duc Vu Mai",
+    "roles": ["Full stack developer", "Bridge engineer", "Project manager"],
+    "skills": [
+        {
+            "name": "React",
+            "rank": "expert"
+        },
+        {
+            "name": "Nodejs",
+            "rank": "experienced"
+        },
+        {
+            "name": "CSS3",
+            "rank": "experienced"
+        },
+        {
+            "name": "Stylus, Sass",
+            "rank": "experienced"
+        },
+        {
+            "name": "HTML 5",
+            "rank": "experienced"
+        },
+        {
+            "name": ".NET",
+            "rank": "expert"
+        },
+        {
+            "name": "Episerver CMS",
+            "rank": "expert"
+        },
+        {
+            "name": "Scrum master",
+            "rank": "expert"
+        },
+        {
+            "name": "CI development",
+            "rank": "experienced"
+        },
+        {
+            "name": "Performance analyzation",
+            "rank": "experienced"
+        }
+    ],
+    "education": [
+        {
+            "name": "HaNoi university of education",
+            "achieve": "Bachelor",
+            "year": "2006-2010"
+        },
+        {
+            "name": "Backan gifted high school",
+            "year": "2003-2006"
+        }
+    ],
+    "certificates": [
+        {
+            "name": "BEC level B2",
+            "year": "2016"
+        },
+        {
+            "name": "Scrum master",
+            "year": "2015"
+        },
+        {
+            "name": "Episerver CMS 6, 7, 9, 10 developer",
+            "year": "2017"
+        }
+    ],
+    "projects": [
+        {
+            "name": "Bonnier Editors Tools",
+            "year": "2018 - now",
+            "responsibility": "Fullstack developer",
+            "description": "Produce highly crafted tools for the uses of complexed editors businesses which can be sharing, organizing front page",
+            "stacks": ["React", "Nodejs", "MongoDB", "Redux", "Docker", "Stylus", "Webpack", "Electron"]
+        },
+        {
+            "name": "Bonnier Safe Share",
+            "year": "2018",
+            "responsibility": "Fullstack developer",
+            "description": "Highly secured application for sharing files",
+            "stacks": ["React", "Nodejs", "MongoDB", "Redux", "Docker", "Stylus", "Kue", "Passport", "Jwt", "Webpack"]
+        },
+        {
+            "name": "Di Börssnack",
+            "year": "2017",
+            "responsibility": "Project manager",
+            "description": "Manage plan and lead re-archiecturing börssnack site to use React",
+            "stacks": ["React", "Nodejs", "Redux", ".Net", "Solr", "Planning", "Scrum"]
+        },
+        {
+            "name": "Bonnier CMS",
+            "year": "2017 - now",
+            "responsibility": "Project manager",
+            "description": "Maintain and developer Episerver CMS for large publications DN and DI",
+            "stacks": ["Episerver CMS", "AngularJS", "Jira", "Octopus", "Teamcity", "Solr", "Planning",
+            "Scrum", "SQL"]
+        },
+        {
+            "name": "Hosting movements",
+            "year": "2016",
+            "responsibility": "Project manager",
+            "description": "Moving hosting providers",
+            "stacks": ["Planning", "Linux scripting"]
+        },
+        {
+            "name": "Dagens Industri",
+            "year": "2016 - 2017",
+            "responsibility": "Project manager",
+            "description": "Development for large news site www.di.se",
+            "stacks": ["Episerver CMS", "AngularJS", "Jira", "Octopus", "Teamcity", "Solr", "Performance Optimizations",
+            "Webpagetest", "Analyze stack dump", "Load test", "Scrum", "SQL", ".Net 3.5", "jQuery"]
+        },
+        {
+            "name": "Dagens Nyheter",
+            "year": "2015 - 2017",
+            "responsibility": "Team lead/Project manager",
+            "description": "Development for large news site www.dn.se",
+            "stacks": ["Episerver CMS", "AngularJS", "Jira", "Octopus", "Teamcity", "Solr", "Performance Optimizations",
+            "Webpagetest", "Analyze stack dump", "Load test", "Scrum", "SQL", ".Net 3.5", "jQuery"]
+        },
+        {
+            "name": "Dagens Nyheter",
+            "year": "2012 - 2015",
+            "responsibility": "Senior developer",
+            "description": "Development for large news site www.dn.se",
+            "stacks": ["Episerver CMS", "AngularJS", "Jira", "Octopus", "Teamcity", "Solr", "Performance Optimizations",
+            "Webpagetest", "Analyze stack dump", "Load test", "Scrum", "SQL", ".Net 3.5", "jQuery"]
+        },
+        {
+            "name": "Spinifex",
+            "year": "2011 - 2012",
+            "responsibility": "Developer",
+            "description": "Episerver development as customers' requests",
+            "stacks": ["Episerver CMS", "jQuery", ".Net 3.5"]
+        }
+    ]
+}

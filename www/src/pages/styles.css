@@ -86,3 +86,24 @@
 .presentationBottom__app{
     color: #0077B5;
 }
+
+.cv{
+    height: 100vh;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 35px;
+    background: #FFF;
+}
+
+.cv__content{
+    display: flex;
+    padding: 15px 0;
+}
+
+.cv__left{
+    flex: 1;
+}
+
+.cv__right{
+    flex-basis: 25%;
+}
