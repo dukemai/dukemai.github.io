@@ -19,7 +19,7 @@ const Intro = ({ onZoomClicked }) => (
       }
     </ul>
     <button onClick={onZoomClicked} className="presentation__nextButton">
-      <i className="material-icons">info_outline</i>
+      <i className="material-icons">arrow_forward_ios</i>
     </button>
   </div>
 );
