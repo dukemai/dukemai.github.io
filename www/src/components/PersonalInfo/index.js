@@ -22,7 +22,7 @@ const PersonalInfo = ({ }) => (
         }
       </ul>
       <p className="personalInfo__languages">
-        <span>Languages:</span> English, Vietnamese as Swedish
+        <span>Languages:</span> English, Vietnamese and Swedish
       </p>
     </div> 
   </section>  
