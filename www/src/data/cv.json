@@ -3,44 +3,53 @@
     "roles": ["Fullstack Developer", "Project Manager"],
     "skills": [
         {
-            "name": "React",
-            "rank": "expert"
+            "name": "React, Redux",
+            "rank": "expert",
+            "id": "react"
         },
         {
-            "name": "Nodejs",
+            "name": "Nodejs, Express",
             "rank": "experienced"
+            ,
+            "id": "nodejs"
         },
         {
-            "name": "CSS3",
+            "name": "CSS3, HTML5",
             "rank": "experienced"
+            ,
+            "id": "css3"
         },
         {
             "name": "Stylus, Sass",
             "rank": "experienced"
-        },
-        {
-            "name": "HTML 5",
-            "rank": "experienced"
+            ,
+            "id": "stylus"
         },
         {
             "name": ".NET",
             "rank": "expert"
+            ,
+            "id": "net"
         },
         {
             "name": "Episerver CMS",
-            "rank": "expert"
+            "rank": "expert",
+            "id":"episerver"
         },
         {
-            "name": "Scrum master",
-            "rank": "expert"
+            "name": "Scrum",
+            "rank": "expert",
+            "id": "scrum"
         },
         {
             "name": "CI development",
-            "rank": "experienced"
+            "rank": "experienced",
+            "id": "docker"
         },
         {
             "name": "Performance analyzation",
-            "rank": "experienced"
+            "rank": "experienced",
+            "id": "performance"
         }
     ],
     "education": [

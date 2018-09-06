@@ -11,7 +11,7 @@ const defaultProps = {};
 
 const Component = ({}) => (
   <Box title="Education">
-    {cv.education.map(entry => <EducationEntry {...entry} />)}
+    {cv.education.map((entry, index) => <EducationEntry key={index} {...entry} />)}
   </Box>
 );
 Component.propTypes = propTypes;

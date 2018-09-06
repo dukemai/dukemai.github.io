@@ -10,7 +10,7 @@ const propTypes = {};
 const defaultProps = {};
 
 const Skills = ({}) => (
-  <LargeBox className="box--skill" title="Duc Mai are strong at...">
+  <LargeBox className="box--skill" title="Duc Mai is strong at...">
     {cv.skills.map((skill, index) => <Skill key={index} {...skill} />)}
   </LargeBox>
 );

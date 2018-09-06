@@ -126,6 +126,7 @@
     flex: 1;
     overflow-y: auto;
     padding-right: 7px;
+    padding-bottom: 10px;
 }
 .cv__right{
     flex-basis: 25%;

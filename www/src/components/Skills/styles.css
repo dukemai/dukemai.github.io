@@ -16,3 +16,9 @@
 .skill--experienced{
     width: 80%;
 }
+
+.skill svg{
+    height: 28px;
+    width: 28px;
+    margin-right: 13px;
+}

@@ -2,6 +2,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 import Project from './Project';
+import LargeBox from '../LargeBox';
+
 import { cv } from '../../data';
 import './styles.css';
 
@@ -11,14 +13,14 @@ const defaultProps = {
 };
 
 const Projects = ({ }) => (
-  <div className="projects">
+  <LargeBox title="Duc Mai has been working with..." className="projects">
   
     {
-      cv.projects.map(project => (
-        <Project {...project} />
+      cv.projects.map((project, index) => (
+        <Project {...project} key={index} />
       ))
     }
-  </div>  
+  </LargeBox>  
 );
 
 Projects.propTypes = propTypes;

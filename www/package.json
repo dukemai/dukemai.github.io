@@ -9,7 +9,9 @@
     "gatsby-plugin-google-analytics": "^1.0.28",
     "gatsby-plugin-react-helmet": "^1.0.8",
     "gatsby-plugin-react-svg": "^1.1.1",
-    "react-motion": "^0.5.2"
+    "gatsby-plugin-svgr": "^1.0.1",
+    "react-motion": "^0.5.2",
+    "svg-react-loader": "^0.4.5"
   },
   "keywords": [
     "gatsby"
