@@ -20,6 +20,18 @@ const CurriculumVitae = ({}) => (
     <section className="cv__content">
       <section className="cv__left">
         <PersonalInfo />
+        <ul className="nav">
+          <li>
+            <a className="nav__link nav__link--selected" href="/">
+              Profile
+            </a>
+          </li>
+          <li>
+            <a className="nav__link" href="/">
+              My apps
+            </a>
+          </li>
+        </ul>
       </section>
       <section className="cv__middle">
         <Skills />

@@ -132,3 +132,43 @@
     flex-basis: 25%;
     padding-left: 25px;
 }
+.cv .nav{
+    margin: 0;
+    padding: 0;
+    padding-left: 65px;
+    list-style: none;
+    margin-top: 25px;
+}
+.cv .nav li{
+    margin-bottom: 17px;
+}
+.cv .nav__link{
+    text-decoration: none;
+    color: #B4B8C0;
+    font-weight: 400;
+}
+.cv .nav__link--selected{
+    color: #000;
+}
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .cv__content{
+        flex-direction: column;
+        overflow: auto;
+    }
+    .personalInfo__padLeft{
+        padding-left: 25px;
+    }
+    .cv .nav{
+        padding-left: 25px;
+    }
+    .cv__middle{
+        order: 2;
+        flex: auto;
+        overflow-y: initial;
+        padding-left: 7px;
+    }
+}
