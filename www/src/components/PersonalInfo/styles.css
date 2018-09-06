@@ -1,31 +1,29 @@
 .personalInfo{
     overflow: hidden;
-    border-bottom: 1px solid #6F8695;
-    padding-bottom: 15px;
+}
+.personalInfo__image{
+    width: 180px;
+    height: 180px;
+    background: #DFE3E5;
+    border-radius: 50%;
+}
+.personalInfo__padLeft{
+    padding-left: 65px;
 }
 .personalInfo__name{
-    color: #1C448E;
-    margin: 30px 0 0;
+    margin: 20px 0 0;
+    font-weight: 400;
 }
 .personalInfo__roles{
+    font-size: 0.75rem;
     margin: 0;
     padding: 0;
     list-style: none;
-    display: flex;
-    font-size: 12px;
+    margin-top: 3px;
 }
 
 .role{
-    margin-right: 7px;
-    color: #6F8695;
+    margin-bottom: 7px;
+    color: #464847;
 }
 
-.personalInfo__languages{
-    font-size: 12px;
-}
-
-.personalInfo__row{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}

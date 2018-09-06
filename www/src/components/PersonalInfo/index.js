@@ -5,27 +5,21 @@ import Role from './Role';
 import { cv } from '../../data';
 import './styles.css';
 
-const propTypes = {
-};
-const defaultProps = {
-};
+const propTypes = {};
+const defaultProps = {};
 
-const PersonalInfo = ({ }) => (
+const PersonalInfo = ({}) => (
   <section className="personalInfo">
-    <h2 className="personalInfo__name">Duc Vu Mai</h2>
-    <div className="personalInfo__row">
+    <div className="center-aligned">
+      <div className="personalInfo__image" />
+    </div>
+    <section className="personalInfo__padLeft">
+      <h2 className="personalInfo__name">Duc Mai</h2>
       <ul className="personalInfo__roles">
-        {
-          cv.roles.map((role, index) => (
-            <Role text={role} key={index} />
-          ))
-        }
+        {cv.roles.map((role, index) => <Role text={role} key={index} />)}
       </ul>
-      <p className="personalInfo__languages">
-        <span>Languages:</span> English, Vietnamese and Swedish
-      </p>
-    </div> 
-  </section>  
+    </section>
+  </section>
 );
 
 PersonalInfo.propTypes = propTypes;

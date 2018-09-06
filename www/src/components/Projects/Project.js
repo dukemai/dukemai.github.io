@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 import Stack from './Stack';
+import LargeBox from '../LargeBox';
 
 const propTypes = {
   name: PropTypes.string.isRequired,
@@ -10,29 +11,15 @@ const propTypes = {
   description: PropTypes.string.isRequired,
   stacks: PropTypes.arrayOf(PropTypes.string).isRequired,
 };
-const defaultProps = {
-};
+const defaultProps = {};
 
 const Project = ({ name, year, responsibility, description, stacks }) => (
-  <div className="project">
-    <h4 className="project__title">{name}</h4>
-    <p className="project__year">
-      {year}
-    </p>
-    <p className="project__responsibility">
-      {responsibility}
-    </p>
-    <p className="project__description">
-      {description}
-    </p>
-    <div>
-      {
-        stacks.map(stack => (
-          <Stack text={stack} />
-        ))
-      }
-    </div>
-  </div>  
+  <LargeBox title={name}>
+    <p className="project__year">{year}</p>
+    <p className="project__responsibility">{responsibility}</p>
+    <p className="project__description">{description}</p>
+    <div>{stacks.map(stack => <Stack text={stack} />)}</div>
+  </LargeBox>
 );
 
 Project.propTypes = propTypes;

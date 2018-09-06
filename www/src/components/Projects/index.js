@@ -12,9 +12,7 @@ const defaultProps = {
 
 const Projects = ({ }) => (
   <div className="projects">
-    <h4 className="projects__title">
-      Projects
-    </h4>
+  
     {
       cv.projects.map(project => (
         <Project {...project} />

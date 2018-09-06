@@ -2,23 +2,17 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 import Skill from './Skill';
+import LargeBox from '../LargeBox';
 import { cv } from '../../data';
 import './styles.css';
 
-const propTypes = {
-};
-const defaultProps = {
-};
+const propTypes = {};
+const defaultProps = {};
 
-const Skills = ({ }) => (
-  <div className="skills">
-    <h4 className="skills__title block__title">Skills</h4>
-    {
-      cv.skills.map((skill, index) => (
-        <Skill key={index} {...skill} />
-      ))
-    }
-  </div>  
+const Skills = ({}) => (
+  <LargeBox className="box--skill" title="Duc Mai are strong at...">
+    {cv.skills.map((skill, index) => <Skill key={index} {...skill} />)}
+  </LargeBox>
 );
 Skills.propTypes = propTypes;
 Skills.defaultProps = defaultProps;

@@ -9,3 +9,6 @@ export { default as Education } from './Education';
 export { default as Projects } from './Projects';
 export { default as PersonalInfo } from './PersonalInfo';
 export { default as Certificates } from './Certificates';
+export { default as Bio } from './Bio';
+export { default as Location } from './Location';
+export { default as Languages } from './Languages';

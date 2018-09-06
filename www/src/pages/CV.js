@@ -1,27 +1,39 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { PersonalInfo, Projects, Skills, Education, Certificates } from '../components';
+import {
+  PersonalInfo,
+  Projects,
+  Skills,
+  Education,
+  Certificates,
+  Bio,
+  Location,
+  Languages,
+} from '../components';
 
-const propTypes = {
-};
-const defaultProps = {
-};
+const propTypes = {};
+const defaultProps = {};
 
-const CurriculumVitae = ({ }) => (
+const CurriculumVitae = ({}) => (
   <section className="cv">
-    <PersonalInfo />
     <section className="cv__content">
       <section className="cv__left">
+        <PersonalInfo />
+      </section>
+      <section className="cv__middle">
+        <Skills />
         <Projects />
       </section>
       <section className="cv__right">
-        <Skills />
+        <Bio />
+        <Languages />
+        <Location />
         <Certificates />
         <Education />
       </section>
     </section>
-  </section>  
+  </section>
 );
 
 CurriculumVitae.propTypes = propTypes;

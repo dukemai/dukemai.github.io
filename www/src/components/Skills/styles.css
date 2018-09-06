@@ -1,24 +1,18 @@
-.skills{
-    overflow: hidden;
-}
-
-.block__title{
-    margin: 0;
-    background: #FFE381;
-    padding: 10px 5px;
-    margin-bottom: 7px;
+.box--skill{
+    margin-bottom: 23px;
 }
 
 .skill{
-    font-size: 14px;
-    margin-bottom: 12px;
+    font-size: 0.75rem;
     display: flex;
     align-items: center;
+    background: #F8F9FA;
+    margin-bottom: 7px;
+    padding: 7px 10px;
+    border-radius: 5px;
+    border: 1px solid #DDD;
 }
 
-.skill svg{
-    width: 24px;
-    height: 24px;
-    fill: #1C448E;
-    margin-right: 7px;
+.skill--experienced{
+    width: 80%;
 }
