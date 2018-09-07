@@ -162,6 +162,9 @@
     .personalInfo__padLeft{
         padding-left: 25px;
     }
+    .cv{
+        height: 100%;
+    }
     .cv .nav{
         padding-left: 25px;
     }

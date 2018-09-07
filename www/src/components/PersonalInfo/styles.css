@@ -6,6 +6,7 @@
     height: 180px;
     background: #DFE3E5;
     border-radius: 50%;
+    overflow: hidden;
 }
 .personalInfo__padLeft{
     padding-left: 65px;
@@ -20,6 +21,10 @@
     padding: 0;
     list-style: none;
     margin-top: 3px;
+}
+
+.personalInfo__img{
+    width: 100%;
 }
 
 .role{

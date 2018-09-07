@@ -11,7 +11,9 @@ const defaultProps = {};
 const PersonalInfo = ({}) => (
   <section className="personalInfo">
     <div className="center-aligned">
-      <div className="personalInfo__image" />
+      <div className="personalInfo__image">
+        <img className="personalInfo__img" src="/static/profile.jpg" />
+      </div>
     </div>
     <section className="personalInfo__padLeft">
       <h2 className="personalInfo__name">Duc Mai</h2>
