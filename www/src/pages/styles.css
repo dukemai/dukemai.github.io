@@ -157,13 +157,13 @@
   and (-webkit-min-device-pixel-ratio: 2) {
     .cv__content{
         flex-direction: column;
-        overflow: auto;
+        overflow-y: scroll;
     }
     .personalInfo__padLeft{
         padding-left: 25px;
     }
     .container{
-        height: auto;
+        height: auto!important;
         overflow-y: scroll;
     }
     .cv{
