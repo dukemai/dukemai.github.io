@@ -162,6 +162,10 @@
     .personalInfo__padLeft{
         padding-left: 25px;
     }
+    .container{
+        height: auto;
+        overflow-y: scroll;
+    }
     .cv{
         height: 100%;
     }
