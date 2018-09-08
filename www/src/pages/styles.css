@@ -128,6 +128,28 @@
     padding-right: 7px;
     padding-bottom: 10px;
 }
+.cv__middle::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+
+.cv__middle::-webkit-scrollbar {
+    width: 17px;
+    background-color: transparent;
+    width: 0px !important;  
+    height: 0px !important;  
+}
+
+.cv__middle::-webkit-scrollbar-thumb {
+    border: 4px solid transparent;
+    border-radius: 8px;
+    background-color: transparent;
+    background-clip: padding-box;
+}
+
+.cv__middle:hover::-webkit-scrollbar-thumb {
+    background-color: #DDD;
+}
+  
 .cv__right{
     flex-basis: 25%;
     padding-left: 25px;
@@ -149,6 +171,17 @@
 }
 .cv .nav__link--selected{
     color: #000;
+}
+
+.linkedin{
+    width: 32px;
+    height: 32px;
+    background: #FFF;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 3px 2px rgba(221, 221, 221, .3)
 }
 
 @media only screen 

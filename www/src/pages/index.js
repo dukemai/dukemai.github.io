@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+import { ReactComponent as LinkedIn } from '../../public/static/linkedin.svg';
 import {
   PersonalInfo,
   Projects,
@@ -43,6 +44,11 @@ const CurriculumVitae = ({}) => (
         <Location />
         <Certificates />
         <Education />
+        <div>
+          <a className="linkedin" target="_blank" href="https://www.linkedin.com/in/duc-mai-96b0846b/">
+            <LinkedIn />
+          </a>
+        </div>
       </section>
     </section>
   </section>
