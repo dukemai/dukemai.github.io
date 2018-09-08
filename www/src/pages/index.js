@@ -44,7 +44,7 @@ const CurriculumVitae = ({}) => (
         <Location />
         <Certificates />
         <Education />
-        <div>
+        <div className="contact">
           <a className="linkedin" target="_blank" href="https://www.linkedin.com/in/duc-mai-96b0846b/">
             <LinkedIn />
           </a>
