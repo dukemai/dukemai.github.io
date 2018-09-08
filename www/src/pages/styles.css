@@ -160,7 +160,10 @@
         overflow-y: scroll;
     }
     .personalInfo__padLeft{
-        padding-left: 25px;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
     }
     .container{
         height: auto!important;
@@ -169,8 +172,21 @@
     .cv{
         height: 100%;
     }
+    .project{
+        border: none;
+        padding: 0;
+        background: transparent;
+    }
+    .cv__left{
+        width: 100%;
+    }
     .cv .nav{
+        background: #FFF;
+        padding: 17px 0 17px;
         padding-left: 25px;
+    }
+    .cv .nav li:last-child{
+        margin: 0;
     }
     .cv__middle{
         order: 2;
